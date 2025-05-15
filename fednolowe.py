@@ -1,3 +1,8 @@
+#This code simulates federated learning (FL) aggregation without implementing weight transmission in a server-client architecture.
+#Other projects incorporating server-client architecture are available at https://github.com/dongld-2020/.
+#To modify training parameters, update the following line at the end of the code:
+#federated_learning(model_name=model_name, algorithm=algorithm, num_clients=50, num_rounds=50, epochs=2, batch_size=32).
+
 import torch
 import torch.nn as nn
 import torch.optim as optim
